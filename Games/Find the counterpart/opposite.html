@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Opposite</title>
+
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="hindi.json"></script>
+
+	<link rel="stylesheet" type="text/css" href="opposite.css">
+
+</head>
+
+<body>
+<div id = "title">Find The Counterpart</div>
+<div id = "question"> </div>
+<div id = "choices_box"> 
+<div id = "choices"> </div>
+</div>
+<br><br>
+<center><button id = "submit" onclick="startEvaluation();">Submit</button>&nbsp;&nbsp;<button onclick = "next()">Next</button></center><br><br>
+
+<center>Your Score :&nbsp; <span id = 'score'></span></center><br><br>
+<center><div id = "comments"></div></center>
+	<script type="text/javascript" src="opposite.js"></script>
+	<script type="text/javascript">
+		function startEvaluation(){
+			evaluate();
+		}
+	</script>
+</body>
+
+
+</html>
